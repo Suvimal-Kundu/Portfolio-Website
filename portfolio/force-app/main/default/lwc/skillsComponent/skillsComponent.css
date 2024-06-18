@@ -1,0 +1,125 @@
+.skills {
+    padding: 100px 0;
+    background: #f2f2f2;
+}
+
+.skills .max-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.skills-content .column {
+    flex-basis: 45%;
+}
+.skills-content .right {
+    margin-right: 20px;
+}
+
+.skills-content .left {
+    text-align: left;
+}
+
+.skills-content .left .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills-content .left p {
+    margin: 20px 0;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills-content .left a:hover {
+    background: #e66a00;
+}
+
+.skills-content .right {
+    text-align: left;
+}
+
+.skills-content .bars .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skills-content .bars .info span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.skills-content .bars .line {
+    position: relative;
+    height: 10px;
+    background: #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.skills-content .bars .line.html::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    background: #ff7800;
+    border-radius: 6px;
+}
+
+.skills-content .bars .line.css::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    background: #1e90ff;
+    border-radius: 6px;
+}
+
+.skills-content .bars .line.js::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background: #f7df1e;
+    border-radius: 6px;
+}
+
+.skills-content .bars .line.php::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background: #4F5B93;
+    border-radius: 6px;
+}
+
+.skills-content .bars .line.mysql::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    background: #00758F;
+    border-radius: 6px;
+}

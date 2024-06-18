@@ -1,0 +1,54 @@
+.about {
+    padding: 100px 0;
+    background: #f2f2f2;
+}
+
+.about .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.about-content .column {
+    flex: 1;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.about-content .right {
+    text-align: left;
+}
+
+.about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-content .right p {
+    margin: 20px 0;
+}
+
+.about-content .right a {
+    display: inline-block;
+    background: #ff7800;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.about-content .right a:hover {
+    background: #e66a00;
+}

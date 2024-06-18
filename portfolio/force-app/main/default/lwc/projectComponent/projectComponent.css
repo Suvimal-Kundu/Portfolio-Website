@@ -1,0 +1,36 @@
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the project cards horizontally */
+    align-items: flex-start; /* Align the project cards to the top */
+}
+.project-heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 0 1 calc(33.33% - 20px); /* Each card takes up 33.33% of the container width with a gap of 20px */
+    max-width: calc(33.33% - 20px); /* Set a maximum width for the cards */
+}
+
+.project-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project-details ul li {
+    margin-bottom: 10px;
+}

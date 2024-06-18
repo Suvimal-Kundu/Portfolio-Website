@@ -1,0 +1,87 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+    background: #000000;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: #ff7800;
+    transition: all 0.3s ease;
+}
+
+.navbar .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .menu li {
+    list-style: none;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.navbar .menu li a:hover {
+    color: #ff7800;
+}
+
+.menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .menu-btn i {
+        display: block;
+    }
+    
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        display: block;
+        text-align: center;
+        background: #111;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu.active {
+        left: 0;
+    }
+
+    .navbar .menu li {
+        margin: 50px 0;
+    }
+
+    .navbar .menu li a {
+        font-size: 20px;
+        margin-left: 0;
+    }
+}
